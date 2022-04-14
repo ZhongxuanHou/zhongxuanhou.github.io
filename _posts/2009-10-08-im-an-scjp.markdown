@@ -1,0 +1,19 @@
+---
+author: sayakbiswas
+comments: true
+date: 2009-10-08 14:53:41+00:00
+layout: post
+slug: im-an-scjp
+title: "I'm an SCJP.... :)"
+wordpress_id: 89
+category: blog
+tag:
+- Life
+- SCJP
+blog: true
+---
+
+Yay!! :D
+I passed the SCJP exam with 93% marks. I'm awesomely happy about it. Right now I'm awaiting my certificate which I'll be getting in a few months.
+Other SCJPs share your experiences.
+Yay again!
