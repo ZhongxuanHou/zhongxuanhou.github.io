@@ -27,9 +27,12 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
+
 body,
 html {
 	overflow-x:hidden;
+	background-color: #349999;
+		
 }
 
 body {
@@ -334,7 +337,7 @@ button:focus {
 
 
 /*--------------------*/
-/* FEATURED SLIDER */
+/* Main */
 /*--------------------*/
 
 #mu-featured-slider {
@@ -407,7 +410,7 @@ button:focus {
 
 
 /*--------------------*/
-/* ABOUT US */
+/* ABOUT ME */
 /*--------------------*/
 
 
@@ -421,9 +424,20 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	margin-top: -20px;
+	padding: 15% 10%;
 	width: 100%;
+	text-align: center;
 }
+
+.mu-about-area h1 {
+	font-size: 60px;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
 
 .mu-about-header {
 	display: inline;
@@ -548,26 +562,37 @@ button:focus {
 	color: #fff;
 }
 
-
 /*--------------------*/
-/* SERVICE */
+/* Projects*/
 /*--------------------*/
 
 
-#mu-service {
+#mu-about {
+	background-color: #f7f7f7;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-service-area {
+.mu-projects-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	margin-top: -20px;
+	padding: 15% 10%;
 	width: 100%;
+	text-align: center;
 }
 
-.mu-service-header {
+.mu-projects-area h1 {
+	font-size: 60px;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
+
+.mu-peojects-header {
 	display: inline;
 	float: left;
 	text-align: center;
@@ -575,51 +600,34 @@ button:focus {
 	width: 100%;
 }
 
-.mu-heading-title {
+.mu-projects-title {
 	color: #1c1b1b;
 	margin-bottom: 15px;
 	position: relative;
 }
 
-.mu-service-content{
+.mu-projects-content {
+	background-color: #fff;
 	display: inline;
 	float: left;
 	margin-top: 70px;
+	padding: 20px;
 	width: 100%;
 }
 
-.mu-service-content-single {
-	background-color: #f8f8f8;
+.mu-projects-content-left {
 	display: inline;
 	float: left;
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 25px 10px;
 	width: 100%;
 }
 
-.mu-service-icon-box {
-	font-size: 30px;
-	margin-bottom: 20px;
-	display: inline-block;
-	border-radius: 50%;
-	width: 75px;
-	height: 75px;
-	line-height: 75px;
+.mu-projects-content-right {
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	width: 100%;
 }
 
-.mu-service-content-single h4{
-	margin-bottom: 20px;
-	font-size: 20px;
-}
-
-.mu-service-content-single p {
-	font-size: 14px;
-	margin-bottom: 0;
-	color: #555;
-	letter-spacing: 0.5px;
-}
 
 
 /*--------------------*/
