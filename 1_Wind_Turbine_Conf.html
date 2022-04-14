@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+<body>
+    <div id="bg"></div>    
+    <header>
+        <nav>
+            <div class="logo" style="width: 50%;">
+                <h3>Zephyr Wind</h3>
+            </div>
+
+            <ul class="nav-links">
+                <div class="left-links">
+                <li><a class="nav-link" href="index.html">Wind Energy</a></li>
+                <li><a class="nav-link is-active" href="1_Wind_Turbine_Conf.html">Wind Turbine Configuration</a></li>
+                <li><a class="nav-link" href="2_HWT.html">Horizontal Axis Wind Turbine</a></li>
+                <li><a class="nav-link" href="3_OSWT.html">Offshore Wind Turbine</a></li>
+                <li><a class="nav-link" href="4_VAWT.html">Vertical Axis Wind Turbine</a></li> 
+                </div>
+            </ul>
+            <ul class="nav-links">
+                <div class="right-links">
+                    <li><a class="nav-button signup" href="report.html">Report</a></li>
+                </div>
+            </ul>  
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>                      
+        </nav>
+    </header>
+
+    <main>
+        <section class="centered-box">
+            <h1>
+                Wind Turbine Configuration
+            </h1>
+            <p>Although there are different types of wind turbine design such as the horizontal and vertial wind turbine, the components are relatively universal.In general, there are five components: tower, rotor, nacelle, generator and foundation. The schematic of the wind turbine is shown below.  </p>
+            <img src="images/WComponents.png">
+            
+        </section>
+    </main>
+    
+  
+    <div class="flex-column">
+        <section class="article long-article" id="article1">
+            <div class="article-image">
+                <img src="images/WC_rotor.jpg" alt="Rotor">
+            </div>
+            <div class="regular-article-info">
+                <h3 class="regular-article-header">Rotor</h3>
+                <div class="regular-article-content"> Rotor is the most important part of the wind turbine. It is designed such that when the wind blows through the rotor, it rotates and generates mechanical energy. A typical wind turbine uses 3-blades rotor because it is the most efficient design comparing to 2-blades or other design.</div>
+            </div>
+        </section>
+        <section class="article long-article" id="article2">
+            <div class="article-image">
+                <img src="images/WC_nacelle.jpg.crdownload" alt="Nacelle">
+            </div>
+            <div class="regular-article-info">
+                <h3 class="regular-article-header">Nacelle</h3>
+                <div class="regular-article-content"> Nacelle connects the rotor and the tower. It contains all the key mechanical components for the wind turbine, such as the gearbox, the generator and the converter. Within nacelle, the wind energy harvested by the rotor is converted into electrical power through the generator. </div>
+            </div>
+        </section>     
+        <section class="article long-article" id="article2">
+            <div class="article-image">
+                <img src="images/WC_generator.jpg" alt="Generator">
+            </div>
+            <div class="regular-article-info">
+                <h3 class="regular-article-header">Generator</h3>
+                <div class="regular-article-content">Generator is the component which converts the mechanical energy into the electrical energy. There are many different generator types available, and the on-going research on the more generator is also very popular. The generator can be classied into synchronous generator and asynchronous generator. And the most popular generator systems used nowadays are the doubly-ged induction generator and the direct-drive generator. </div>
+            </div>
+        </section>          
+        <section class="article long-article" id="article2">
+            <div class="article-image">
+                <img src="images/WC_tower.jpg" alt="Tower">
+            </div>
+            <div class="regular-article-info">
+                <h3 class="regular-article-header">Tower</h3>
+                <div class="regular-article-content">The height of a horizontal wind turbine can ranges from 40 m to 150 m. The tower height is highly correlated with the rotor diameter. As the wind turbine becomes taller, it can captures high wind that has higher wind speed. </div>
+            </div>
+        </section>          
+        <section class="article long-article" id="article2">
+            <div class="article-image">
+                <img src="images/WC_foudnation.jfif" alt="Foundation">
+            </div>
+            <div class="regular-article-info">
+                <h3 class="regular-article-header">Foundation</h3>
+                <div class="regular-article-content">For onshore wind turbine, the foundation supports the tower. A proper foundation should be able to support the wind turbine from the wind gust and the natural vibration. For offshore wind turbine, the foudnation goes into the sea base. And the design becomes more complex.</div>
+            </div>
+        </section>          
+    </div>   
+
+    <div class="nav-footer" >
+        <div class="main-footer">
+            <p>For more wind energy information and consultant, please call the following number or visit our company.
+            </p>
+            <p><b>Location:</b> 2536 Regent Roadm Madison, WI. 1+ (123) 456-7890</p>
+            <p><b>Working Hours:</b> 8:00 AM – 5:PM, Monday-Friday
+            </p>
+            <div class="icons">
+                <a href="" class="fa fa-linkedin"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-youtube"></a>
+                <a href="" class="fa fa-snapchat-ghost"></a>
+            </div>
+        </div>
+        <div class="mini-footer">
+            <ul>
+                <li>Zephyr Wind Limited 2021. All rights reserved.</li>
+            </ul>
+        </div>
+    </div> 
+
+    <script src="common.js"></script>
+ 
+</body>
+</html>    
